@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/felipeavl/age-calculator/static/css/main.ce9fc9de.css",
+    "main.js": "/felipeavl/age-calculator/static/js/main.cdcb0565.js",
+    "static/js/787.1715cc32.chunk.js": "/felipeavl/age-calculator/static/js/787.1715cc32.chunk.js",
+    "index.html": "/felipeavl/age-calculator/index.html",
+    "static/media/icon-arrow.svg": "/felipeavl/age-calculator/static/media/icon-arrow.76e952b1b427b84b83bd01f2f4822499.svg",
+    "main.ce9fc9de.css.map": "/felipeavl/age-calculator/static/css/main.ce9fc9de.css.map",
+    "main.cdcb0565.js.map": "/felipeavl/age-calculator/static/js/main.cdcb0565.js.map",
+    "787.1715cc32.chunk.js.map": "/felipeavl/age-calculator/static/js/787.1715cc32.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce9fc9de.css",
+    "static/js/main.cdcb0565.js"
+  ]
+}
