@@ -40,7 +40,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/felipeavl/age-calculator)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [GitHub Pages](https://felipeavl.github.io/age-calculator/)
 
 ## My process
 
