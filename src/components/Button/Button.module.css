@@ -1,0 +1,39 @@
+.button {
+  width: 96px;
+  height: 96px;
+  background-color: var(--color-primary-purple);
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  z-index: 1;
+}
+
+.button:hover {
+  background-color: var(--color-neutral-off-black);
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button img {
+  width: 32px;
+  height: 32px;
+}
+
+/* Mobile styles */
+@media screen and (max-width: 767px) {
+  .button {
+    width: 64px;
+    height: 64px;
+  }
+
+  .button img {
+    width: 24px;
+    height: 24px;
+  }
+}
