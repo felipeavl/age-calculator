@@ -9,12 +9,12 @@ import { calculateAge } from "../../utils/calculate-age";
 import { validate } from "../../utils/validate";
 import styles from "./AgeCalculator.module.css";
 
-const AgeCalculator = () => {
+const AgeCalculator = ({setBirthday}) => {
+
+  const [age, setAge] = useState({ years: null, months: null, days: null });
   const [day, setDay] = useState("");
   const [month, setMonth] = useState("");
   const [year, setYear] = useState("");
-
-  const [age, setAge] = useState({ years: null, months: null, days: null });
 
   const [errors, setErrors] = useState({ day: "", month: "", year: "" });
 
@@ -36,6 +36,7 @@ const AgeCalculator = () => {
 
     setErrors([]);
 
+    setBirthday({ day, month, year });
     setAge(calculateAge(day, month, year));
   };
 
